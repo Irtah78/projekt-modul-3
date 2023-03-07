@@ -222,8 +222,12 @@ body {
 }
 @media (max-width: 767px) {
 .navigation {
-  height: 800px;
+  flex-direction: column;
 }
+.splash-inner {
+  flex-direction: column;
+}
+
 .links {
   flex-direction: column;
 }
